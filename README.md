@@ -6,6 +6,7 @@ Este projeto tem como objetivo a criação de um relatório de vendas utilizando
 
 A imagem apresenta um dashboard de vendas com múltiplas métricas e visualizações gráficas que permitem uma análise detalhada do desempenho das vendas em diferentes perspectivas.
 
+![imagem do reatório](https://github.com/WenFra005/PowerBI-com-DAX/blob/main/imagem/Imagem1.png)
 ## Etapas do Projeto
 
 ### 1. Limpeza dos dados transformação dos dados
