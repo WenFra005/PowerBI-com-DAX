@@ -1,4 +1,4 @@
-# README - Relatório de Vendas com MySQL e Power BI
+# README - Relatório de Vendas com Power BI
 
 ## Visão Geral
 
