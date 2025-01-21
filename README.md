@@ -2,25 +2,16 @@
 
 ## Visão Geral
 
-Este projeto tem como objetivo a criação de um relatório de vendas utilizando dados armazenados em um banco de dados MySQL, conectados ao Power BI para visualização e análise.
+Este projeto tem como objetivo a criação de um relatório de vendas utilizando dados armazenazados na Financial Sample ao Power BI para visualização e análise.
 
 A imagem apresenta um dashboard de vendas com múltiplas métricas e visualizações gráficas que permitem uma análise detalhada do desempenho das vendas em diferentes perspectivas.
 
 ## Etapas do Projeto
 
-### 1. Criação do Banco de Dados MySQL
+### 1. Limpeza dos dados transformação dos dados
+Foi feita uma limpeza dos dados para melhor desempenho e organização dos dados
 
-Foi criado um banco de dados MySQL para armazenar as informações de vendas, com tabelas contendo dados de:
-
-- **Vendas** (quantidade, valor, data, região, segmento, etc.)
-- **Clientes** (nome, país, segmento, etc.)
-- **Produtos** (categoria, preço, estoque, etc.)
-
-### 2. Conexão com o Power BI
-
-A conexão com o Power BI foi estabelecida por meio do conector nativo MySQL, permitindo a importação e a transformação dos dados.
-
-### 3. Criação da Tabela Calendário com DAX
+### 2. Criação da Tabela Calendário com DAX
 
 Foi criada uma tabela de datas utilizando a linguagem DAX no Power BI para permitir análises temporais mais detalhadas. A tabela inclui colunas como:
 
@@ -56,10 +47,6 @@ Evolução das Vendas ao Longo do Tempo
 * Gráfico de barras mostrando a distribuição de vendas nos segmentos: Governo, Pequenas Empresas, Empresas, Mercado Médio e Parceiros de Canal.
 
 ## Tecnologias Utilizadas
-* **Banco de Dados**: MySQL
 * **Ferramenta de BI**: Power BI
 * **Linguagem de Código**: DAX para cálculos personalizados
-
-## Conclusão
-Este projeto demonstra como integrar MySQL com Power BI para criar relatórios de vendas eficazes, proporcionando insights valiosos através de dashboards interativos e intuitivos.
 
